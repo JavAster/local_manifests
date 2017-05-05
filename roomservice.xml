@@ -18,5 +18,4 @@
 	<project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" />
 	<!-- common -->
 	<project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
-
 </manifest>
