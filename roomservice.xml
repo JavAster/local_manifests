@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Z3 Device from JavAster -->
-  <project name="JavAster/aim_z3_unofficial" path="device/sony/z3" revision="master" />
-	<!-- Vendor files from Sony-Stock-CM -->
-  <project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" remote="github" />
-	<!-- Kernel from Sony-Stock-CM -->
-  <project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
-	<!-- Platform specific from Sony-Stock-CM -->
-  <project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
-	<!-- Device common from Sony-Stock-CM -->
-  <project name="Sony-Stock-CM/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" />
+  <project name="JavAster/android_device_sony_z3" path="device/sony/z3" revision="lox" />
+	<!-- Vendor files from JavAster -->
+  <project name="JavAster/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1"/>
+	<!-- Kernel from JavAster -->
+  <project name="JavAster/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-14.1"/>
+	<!-- Platform specific from JavAster -->
+  <project name="JavAster/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1"/>
+	<!-- Device common from JavAster -->
+  <project name="JavAster/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-14.1"/>
 	<!-- Sony common from LOS -->
   <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
   <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
