@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Z3 Device from JavAster -->
-  <project name="JavAster/android_device_sony_z3" path="device/sony/z3" revision="lox" />
+	<!-- MIDO Device from JavAster -->
+  <project name="android_device_xiaomi_mido-test" path="device/xiaomi/mido" revision="lineage-15.0" />
 	<!-- Vendor files from JavAster -->
-  <project name="JavAster/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1"/>
+  <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.0"/>
 	<!-- Kernel from JavAster -->
-  <project name="JavAster/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-14.1"/>
-	<!-- Platform specific from JavAster -->
-  <project name="JavAster/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1"/>
-	<!-- Device common from JavAster -->
-  <project name="JavAster/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-14.1"/>
-	<!-- Sony common from LOS -->
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
-  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
-  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
-  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" />
-	<!-- Common from LOS -->
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
-	<!-- Qcom common from LOS -->
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="JavAster/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-15.0"/>
 </manifest>
