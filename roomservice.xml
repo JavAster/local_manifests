@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- MIDO Device from JavAster -->
-  <project name="JavAster/android_device_xiaomi_mido-test" path="device/xiaomi/mido" revision="lineage-15.0" />
+  <project name="JavAster/mido_android_o" path="device/xiaomi/mido" revision="paosp-8.0" />
 	<!-- Vendor files from JavAster -->
   <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.0"/>
 	<!-- Kernel from JavAster -->
-  <project name="JavAster/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-15.0"/>
+  <project name="JavAster/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="paosp-8.0"/>
 </manifest>
