@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="hardware/qcom/gps" />
 	<!-- MIDO Device from JavAster -->
   <project name="JavAster/device_xiaomi_mido" path="device/xiaomi/mido" revision="o" />
 	<!-- Vendor files from JavAster -->
