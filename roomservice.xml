@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android_hardware_qcom_gps" />
 	<!-- MIDO Device from JavAster -->
-  <project name="JavAster/device_xiaomi_mido" path="device/xiaomi/mido" revision="o" />
+  <project name="JavAster/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="o" />
 	<!-- Vendor files from JavAster -->
-  <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.0"/>
+  <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="o"/>
 	<!-- Kernel from JavAster -->
-  <project name="JavAster/kernel" path="kernel/xiaomi/msm8953" remote="github" revision="o"/>
-	<!-- android_hardware_qcom_gps from JavAster -->
-  <project name="JavAster/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="o"/>
+  <project name="JavAster/android_kernel_xiaomi_mido" path="kernel/xiaomi/mido" remote="github" revision="o"/>
 </manifest>
