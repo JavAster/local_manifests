@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- MIDO Device from JavAster -->
-  <project name="JavAster/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="o" />
+  <project name="JavAster/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="o" />
 	<!-- Vendor files from JavAster -->
   <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="o"/>
 	<!-- Kernel from JavAster -->
