@@ -6,4 +6,10 @@
   <project name="JavAster/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="o"/>
 	<!-- Kernel from JavAster -->
   <project name="JavAster/android_kernel_xiaomi_mido" path="kernel/xiaomi/mido" remote="github" revision="o"/>
+	<!-- Media from Lineage -->
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" remote="github" revision="cm-14.1-caf-8937" />
+  	<!-- Display from thp1997 -->
+  <project name="thp1997/hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" remote="github" revision="lineage-15.0-caf-8937" />
+  	<!-- Audio from thp1997 -->
+  <project name="thp1997/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" remote="github" revision="lineage-15.0-caf-8937" />
 </manifest>
